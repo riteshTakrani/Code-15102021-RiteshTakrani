@@ -4,6 +4,14 @@
 **Intorduction**
 This is the program to calculate BMI. API endpoint is exposed to pass on the required parameters like gender, height and weight in JSON format. Response contains calculated BMI along with category (underweight, normal, obese, etc.) along with count of total over wieght people from the supplied records and faulty records as well.
 
+**Pre-requisite**
+1)Python installed preferrable python version 3.6+
+2)Download zip file/clone the repository into your local machine.
+3)Open command propt/terminal and goto Code-15102021-RiteshTakrani\venv\Scripts and execute activate.
+(X:\Code-15102021-RiteshTakrani\venv\Scripts>activate)
+4)Goto main folder Code-15102021-RiteshTakrani\ and run Python main.py to start the server
+5)API verification tool like Postman or Insomnia to send request and receive response
+
 **How to use**
 1)Make a post request on http://127.0.0.1:5000/post/ 
 2)Pass JSON formatted data, as shown below :
