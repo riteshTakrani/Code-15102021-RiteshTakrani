@@ -12,6 +12,13 @@ This is the program to calculate BMI. API endpoint is exposed to pass on the req
 4)Goto main folder Code-15102021-RiteshTakrani\ and run Python main.py to start the server
 5)API verification tool like Postman or Insomnia to send request and receive response
 
+**Nomenclature**
+Parameter names in POST request should be strictly adhered to the following - "Gender", "HeightCm" and "WeightKg"
+Gender should be "Male" or "Female".
+Height should be in centimeters.
+Weight should be in kilograms.
+Any change in the unit would result in miscalculated BMI.
+
 **How to use**
 1)Make a post request on http://127.0.0.1:5000/post/ 
 2)Pass JSON formatted data, as shown below :
